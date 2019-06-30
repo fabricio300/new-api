@@ -9,7 +9,12 @@ module.exports = {
   |--------------------------------------------------------------------------
   | Application Name
   |--------------------------------------------------------------------------
-  |
+  |rfddfxs
+  dfv
+  fdvfgvdfgf
+  dfvdfcsdfbvdfgbvdfg
+
+  sdvfdfgf
   | This value is the name of your application and can be used when you
   | need to place the application's name in a email, view or
   | other location.
