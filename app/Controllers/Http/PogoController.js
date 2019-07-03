@@ -7,7 +7,7 @@
 /**
  * Resourceful controller for interacting with pizzas
  */
-const Pago = use('App/Models/Pago2');
+const Pago = use('App/Models/Pagos2');
 const stripe = require('stripe')('sk_test_SVml9pyUwYlVzFUUTfKeQsqx005y0NWEg5');
 
 class PogoController {
