@@ -14,7 +14,7 @@ class PagosSchema extends Schema {
       table.string('namepizza')
       table.integer('cantidad')
       table.string('tamanio')
-      table.string('status')
+      table.string('statuspizza')
       table.timestamps()
     })
   }
