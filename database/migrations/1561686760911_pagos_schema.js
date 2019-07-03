@@ -13,6 +13,8 @@ class PagosSchema extends Schema {
       table.string('tokenpago')
       table.string('namepizza')
       table.integer('cantidad')
+      table.string('tamanio')
+      table.string('status')
       table.timestamps()
     })
   }
