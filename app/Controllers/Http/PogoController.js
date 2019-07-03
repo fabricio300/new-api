@@ -48,6 +48,7 @@ class PogoController {
     const namepizza = request.input('namepizza')
     const cantidad = request.input('cantidad')
     const tamanio =request.input('tamanio')
+    const status =request.input('status')
    
     const pago = new Pago()
     pago.nameclient = nameclient
@@ -57,7 +58,7 @@ class PogoController {
     pago.namepizza=namepizza
     pago.cantidad=cantidad
     pago.tamanio=tamanio
-
+    pago.status=status
     await pago.save()
     return response.json(pago)
 
@@ -125,7 +126,7 @@ class PogoController {
     const namepizza = request.input('namepizza')
     const cantidad = request.input('cantidad')
     const tamanio =request.input('tamanio')
-
+    const status =request.input('status')
     let pago = await Pago.find(params.id)
 
     pago.nameclient = nameclient
@@ -135,7 +136,7 @@ class PogoController {
     pago.namepizza=namepizza
     pago.cantidad=cantidad
     pago.tamanio=tamanio
-
+    pago.status=status
     await pago.save()
     return response.json(pago)
   }
