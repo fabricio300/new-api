@@ -1,2 +1,2 @@
-release: ENV_SILENT=true node ace migration:run --force
-web:adonis migration:refresh
+
+web:ENV_SILENT=true adonis migration:refresh
